@@ -23,5 +23,8 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-4096-dal
 # Call hwui memory config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-4096-hwui-memory.mk)
 
+# Common umi's mt6755
+$(call inherit-product, device/umi/mt6755-common/mt6755.mk)
+
 # Vendor product configurations
 $(call inherit-product-if-exists, vendor/umi/SUPER/SUPER-vendor.mk)
