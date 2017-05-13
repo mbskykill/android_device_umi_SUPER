@@ -14,20 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_SUPER.mk)
 
-# Device display
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
 # Device identifier
-PRODUCT_BRAND := UMI
 PRODUCT_DEVICE := SUPER
-PRODUCT_MANUFACTURER := UMI
 PRODUCT_MODEL := SUPER
 PRODUCT_NAME := lineage_SUPER
 PRODUCT_RELEASE_NAME := SUPER
