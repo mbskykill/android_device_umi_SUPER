@@ -20,10 +20,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_SUPER.mk)
 
-# Device display
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
 # Device identifier
 PRODUCT_BRAND := UMI
 PRODUCT_DEVICE := SUPER
