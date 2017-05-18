@@ -71,24 +71,7 @@ Front Camera | 5MP (GalaxyCore GC5005)
  * Rometheus
  * Flounderist
  * Moyster
+ * AOUP team
 
 ### How to build:
-First of all [clone LineageOS repo](https://github.com/LineageOS/android/tree/cm-13.0), then use this local manifest to sync:
-
-```
-<manifest>
-	<project path="device/umi/SUPER" name="joe2k01/android_device_umi_SUPER" remote="github" revision="cm-13.0"/>
-    <project path="vendor/umi/SUPER" name="joe2k01/android_vendor_umi_SUPER" remote="github" revision="master"/>
-    <project path="packages/apps/KeySwitch" name="joe2k01/KeySwitch" remote="github" revision="AOSP-build"/>
-</manifest>
-```
-
-### Once synced:
-
- 1. cd working_dir
- 2. sh device/umi/SUPER/patches/install.sh
- 3. . build/envsetup.sh
- 4. breakfast SUPER
- 5. brunch SUPER
-
-For me it takes ~1h on i7 6700 and 16 GBs ram or ~3h on i7 2630QM 6 GBs ram
+Infos [here](https://github.com/AOUP-AndroidOpenUmiProject/local_manifests/tree/cm-13.0)
