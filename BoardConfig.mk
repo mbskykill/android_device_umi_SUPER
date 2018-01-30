@@ -15,13 +15,13 @@
 #
 
 # Device path
-LOCAL_PATH := device/umi/SUPER
+LOCAL_PATH := device/meizu/m3note
 
 # Device board elements
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/umi/SUPER/BoardConfigVendor.mk
+-include vendor/meizu/m3note/BoardConfigVendor.mk
 
 # inherit from common umi's mt6755
--include device/umi/mt6755-common/BoardConfigCommon.mk
+-include device/meizu/mt6755-common/BoardConfigCommon.mk

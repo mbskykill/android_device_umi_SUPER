@@ -18,12 +18,12 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_SUPER.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_m3note.mk)
 
 # Device identifier
-PRODUCT_BRAND := UMI
-PRODUCT_DEVICE := SUPER
-PRODUCT_MANUFACTURER := UMI
-PRODUCT_MODEL := SUPER
-PRODUCT_NAME := lineage_SUPER
-PRODUCT_RELEASE_NAME := SUPER
+PRODUCT_BRAND := meizu
+PRODUCT_DEVICE := m3note
+PRODUCT_MANUFACTURER := meizu
+PRODUCT_MODEL := m3note
+PRODUCT_NAME := lineage_m3note
+PRODUCT_RELEASE_NAME := m3note
