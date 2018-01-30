@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=umi
-DEVICE=SUPER
+VENDOR=meizu
+DEVICE=m3note
 
 if [ $# -eq 0 ]; then
   SRC=adb
