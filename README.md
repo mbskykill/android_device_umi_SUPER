@@ -3,7 +3,7 @@
 Unofficial LineageOS 13.0 and Android Marshmallow 6.X AOSP 
 ROMs. ---
 # About Device
-![M3 Note](https://media.takealot.com/covers_tsins/46815686/6937520011497-1-zoom.jpg 
+![M3 Note](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=abf4fbae1830e924dba994632d610563/b8389b504fc2d56229c9364be01190ef77c66c57.jpg 
 "Meizu M3 Note")
 
 ### Specifications
